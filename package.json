@@ -1,0 +1,14 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "Responsive Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive" 
+  },
+  "author": "Zach Lofquist",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
