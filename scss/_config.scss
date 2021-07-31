@@ -1,8 +1,9 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+$primary-color: #444; //444
+$secondary-color: #0e0680;
+$tertiary-color: rgb(102, 8, 8);
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
-$background-opacity: 0.9;
+$home-image: url(../img/back4.jpeg);
+$background-opacity: 0.2;
 
 @mixin easeOut {
   transition: all 0.75s ease-out;
@@ -26,6 +27,15 @@ $background-opacity: 0.9;
         background: rgba($primary-color, $background-opacity);
       }
     }
+  }
+}
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
   }
 }
 
