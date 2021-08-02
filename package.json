@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive Personal Website",
   "main": "index.js",
-  "homepage": "https://ZachLofquist.github.io/PersonalWebsite",
+  "homepage": "https://zachlofquist.github.io/PersonalWebsite",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive", "deploy": "gh-pages -d dist"
   },
