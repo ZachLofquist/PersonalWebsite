@@ -1,0 +1,11 @@
+{
+    "svg.preview.background": "white",
+    "editor.formatOnSave": true,
+    "notebook.editorOptionsCustomizations": null,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 120,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+}
